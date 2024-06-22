@@ -1,6 +1,7 @@
 # AnnoyingMessageBox
 
 ## Pop up some message boxes to your friend's screen while they are using their PC!
+![messagebox screenshot](pic/messagebox.png)
 All you need is run server.py on your side and client.py on their side.
 #### Instruction:
 Run `server.py` first then `client.py`<br>
