@@ -4,6 +4,7 @@
 ![messagebox screenshot](pic/messagebox.png)
 ### All you need is run server.py on your side and client.py on their side.
 ![window screenshot](pic/window.png)
+<img src="pic/window.png" alt="window screenshot" width="300" height="300">
 #### Instruction:
 Run `server.py` first then `client.py`<br>
 Enter host ip address in client end.
