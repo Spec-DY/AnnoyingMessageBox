@@ -66,7 +66,6 @@ class Server:
             try:
                 client, address = self.server.accept()
                 if self.running:
-                    # Add client to the list
                     self.clients.append(client)
                     print(f"Connected with {address}")
                     threading.Thread(target=self.handle_client, args=(client,)).start()
@@ -84,7 +83,6 @@ class Server:
                     pyperclip.copy(msg)
                 else:
                     client.close()
-                    # Remove client from the list
                     self.clients.remove(client)
                     break
             except ConnectionResetError:
