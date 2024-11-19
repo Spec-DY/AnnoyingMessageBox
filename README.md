@@ -1,4 +1,4 @@
-# AnnoyingMessageBox
+# Home Malware Popups V1
 This is a simpler version of [Home Malware Popups](https://github.com/Spec-DY/HomeMalwarePopups)
 
 ## Pop up some message boxes to your friend's screen while they are using their PC!
